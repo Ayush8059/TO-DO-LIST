@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d2d6c8;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the container */
+    align-items: center; /* Center vertically if there is height */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.container { /* Added dot to select class */
+    background-color: white; /* Background for the container */
+    padding: 30px; /* Reduced padding for better layout */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 30%px; /* Fixed width */
+    height:50%;
+    max-width: 100%; /* Responsive max width */
+    text-align: center;
+
+    border-radius: 10px; /* Rounded corners */
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+#taskInput {
+    width: 80%;
+    padding: 10px;
+    margin-right: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #f1f1f1;
+}
+
+.delete-btn { /* Fixed the selector here */
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover { /* Fixed the selector here */
+    background-color: #c82333; /* Darker red on hover */
+}
